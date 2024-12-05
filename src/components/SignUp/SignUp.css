@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    /* Color Variables */
+  --bg-primary: #153131;
+  --bg-secondary: #aeb7b3;
+  --font-color-primary: #f4f4f9;
+  --font-color-secondary: #02111b;
+  --backup-color: #427777;
+}
+/* Style for container */
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--bg-primary);
+}
+/* Style for title */
+h1{
+    color: var(--font-color-primary);
+    font-size: 32px;
+    margin: 20px 0px;
+}
+/* Style for form elements */
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--bg-secondary);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Style for labels */
+label{
+    color: var(--font-color-secondary);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+/* Style for input fields */
+.textInput{
+    padding: 8px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid var(--bg-primary);
+    border-radius: 4px;
+}
+button{
+    padding: 10px 20px;
+    width: 80%;
+    background-color: var(--bg-primary);
+    color: var(--font-color-primary);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: 500;
+}
